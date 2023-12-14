@@ -8,7 +8,7 @@ class BankAccount():
         self.type = type
     
     def __str__(self):
-        return f'Account details: {self.name} ${self.balance:.2f} {self.type}'
+        return f'Account details: {self.name} ${self.balance:.2f} {self.type}\n'
 
     def deposit(self, amount):
         self.balance = self.balance + amount
